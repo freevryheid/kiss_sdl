@@ -23,7 +23,7 @@
 #define _kiss_sdl_h
 
 #ifndef RESDIR
-#define RESDIR ""
+#define RESDIR "res/"
 #endif
 
 #if defined(_MSC_VER)

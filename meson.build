@@ -1,0 +1,7 @@
+project('kiss', 'c')
+sdl2 = dependency('SDL2', method: 'pkg-config')
+sdl2_image = dependency('SDL2_image', method: 'pkg-config')
+sdl2_ttf = dependency('SDL2_ttf', method: 'pkg-config')
+inc = include_directories('inc')
+subdir('gui')
+subdir('src')
